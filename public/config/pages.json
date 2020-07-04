@@ -1,0 +1,27 @@
+[
+  {
+    "name": "HetorusNL",
+    "url": "https://hetorus.nl",
+    "favicon": "https://hetorus.nl/images/favicon.ico"
+  },
+  {
+    "name": "HetorusNL test",
+    "url": "https://test.hetorus.nl"
+  },
+  {
+    "name": "HetorusNL test (html5)",
+    "url": "https://test.hetorus.nl/html5"
+  },
+  {
+    "name": "NightThrivers",
+    "url": "https://nightthrivers.com"
+  },
+  {
+    "name": "React Songsterr",
+    "url": "https://rs.hetorus.nl"
+  },
+  {
+    "name": "React Songsterr (dev)",
+    "url": "https://dev.rs.hetorus.nl"
+  }
+]
