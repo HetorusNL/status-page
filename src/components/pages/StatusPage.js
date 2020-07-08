@@ -37,16 +37,16 @@ const StatusPage = ({ configFile }) => {
       gridGap: "1rem",
       marginLeft: "auto",
       marginRight: "auto",
-      marginTop: "1rem",
-      marginBottom: "1rem",
     };
     return (
       <Fragment>
-        <div style={pagesStyle}>
-          {console.log(pages)}
-          {pages.map((page) => (
-            <PageItem key={page.url} page={page} />
-          ))}
+        <div style={{ margin: "1rem" }}>
+          <div style={pagesStyle}>
+            {console.log(pages)}
+            {pages.map((page) => (
+              <PageItem key={page.url} page={page} />
+            ))}
+          </div>
         </div>
         {errors && (
           <div

@@ -1,16 +1,27 @@
 [
   {
+    "name": "HetorusNL Status Page",
+    "url": "https://status.hetorus.nl",
+    "favicon": "https://status.hetorus.nl/favicon.ico"
+  },
+  {
     "name": "HetorusNL",
     "url": "https://hetorus.nl",
     "favicon": "https://hetorus.nl/images/favicon.ico"
   },
   {
+    "name": "HetorusNL SSO",
+    "url": "https://sso.hetorus.nl"
+  },
+  {
     "name": "HetorusNL test",
-    "url": "https://test.hetorus.nl"
+    "url": "https://test.hetorus.nl",
+    "favicon": "https://test.hetorus.nl/images/favicon.png"
   },
   {
     "name": "HetorusNL test (html5)",
-    "url": "https://test.hetorus.nl/html5"
+    "url": "https://test.hetorus.nl/html5",
+    "favicon": "https://test.hetorus.nl/html5/images/favicon.png"
   },
   {
     "name": "NightThrivers",
@@ -18,10 +29,68 @@
   },
   {
     "name": "React Songsterr",
-    "url": "https://rs.hetorus.nl"
+    "url": "https://rs.hetorus.nl",
+    "favicon": "https://rs.hetorus.nl/favicon.ico"
   },
   {
     "name": "React Songsterr (dev)",
-    "url": "https://dev.rs.hetorus.nl"
+    "url": "https://dev.rs.hetorus.nl",
+    "favicon": "https://dev.rs.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Game",
+    "url": "https://game.hetorus.nl",
+    "favicon": "https://game.hetorus.nl/icon-256.png"
+  },
+  {
+    "name": "HetorusNL IIS",
+    "url": "https://iis.hetorus.nl"
+  },
+  {
+    "name": "HetorusNL Minecraft",
+    "url": "https://minecraft.hetorus.nl",
+    "favicon": "https://minecraft.hetorus.nl/images/favicon.png"
+  },
+  {
+    "name": "HetorusNL Mr. Nom",
+    "url": "https://mrnom.hetorus.nl",
+    "favicon": "https://mrnom.hetorus.nl/images/favicon.png"
+  },
+  {
+    "name": "HetorusNL NightThrivers",
+    "url": "https://nightthrivers.hetorus.nl"
+  },
+  {
+    "name": "HetorusNL Activator",
+    "url": "https://activator.hetorus.nl"
+  },
+  {
+    "name": "HetorusNL 🌐",
+    "url": "https://🌐.hetorus.nl"
+  },
+  {
+    "name": "HetorusNL Nextcloud",
+    "url": "https://nextcloud.hetorus.nl/index.php",
+    "favicon": "https://nextcloud.hetorus.nl/status-images/favicon.png"
+  },
+  {
+    "name": "HetorusNL CNC",
+    "url": "https://cnc.hetorus.nl",
+    "favicon": "https://cnc.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Guitar",
+    "url": "https://guitar.hetorus.nl",
+    "favicon": "https://guitar.hetorus.nl/images/guitar-logo.png"
+  },
+  {
+    "name": "HetorusNL Guitar (beta)",
+    "url": "https://beta.guitar.hetorus.nl",
+    "favicon": "https://beta.guitar.hetorus.nl/images/guitar-logo.png"
+  },
+  {
+    "name": "HetorusNL HassIO",
+    "url": "https://hassio.hetorus.nl",
+    "favicon": "https://hassio.hetorus.nl/favicon.ico"
   }
 ]

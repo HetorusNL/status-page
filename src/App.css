@@ -61,6 +61,11 @@ img {
   padding: 0 2rem;
 }
 
+/* make it easy to show/hide debug information */
+.debug-data {
+  display: none;
+}
+
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
