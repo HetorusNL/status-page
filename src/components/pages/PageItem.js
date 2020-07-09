@@ -85,6 +85,7 @@ const PageItem = ({ page }) => {
           className="btn"
           href={page.url}
           target="_blank"
+          rel="noopener noreferrer"
           style={{ marginTop: "1rem", marginBottom: "1rem" }}
         >
           <strong>{page.name}</strong>
