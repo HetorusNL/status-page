@@ -77,7 +77,6 @@ const StatusPage = ({ configFile, usesSSO }) => {
         )}
         <div style={{ margin: "1rem" }}>
           <div style={pagesStyle}>
-            {console.log("pages while returning: ", pages)}
             {pages.map((page) => (
               <PageItem
                 key={page.url}

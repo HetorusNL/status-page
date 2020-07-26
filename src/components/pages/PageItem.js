@@ -25,7 +25,6 @@ const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
   const getLoadStateFromRes = (res) => {
     if (res.redirected && res.url.includes("sso.hetorus.nl/login")) {
       ssoProtectedPagesFound(true);
-      console.log("set pages.result to SSO");
       return LoadState.SSO;
     } else {
       return res.ok ? LoadState.LOADED : LoadState.ERROR;
@@ -38,7 +37,6 @@ const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
         cache: "no-store",
         credentials: usesSSO ? "include" : "omit",
       }).then((res) => {
-        console.log(res);
         setLoadState(getLoadStateFromRes(res));
       });
     } catch (err) {
@@ -54,7 +52,6 @@ const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
           cache: "no-store",
           credentials: usesSSO ? "include" : "omit",
         }).then((res) => {
-          console.log(res);
           const faviconLoadState = getLoadStateFromRes(res);
           setFaviconState(
             faviconLoadState === LoadState.LOADED
@@ -63,6 +60,7 @@ const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
           );
         });
       } catch (err) {
+        console.log("error while trying to fetch:", page.favicon, ":", err);
         setFaviconState(LoadState.ERROR);
       }
     } else {

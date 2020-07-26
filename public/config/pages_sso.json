@@ -2,7 +2,7 @@
   {
     "name": "HetorusNL Router",
     "url": "https://router.hetorus.nl",
-    "favicon": "https://router.hetorus.nl/favicon.ico"
+    "favicon": "https://router.hetorus.nl/images/favicon.png"
   },
   {
     "name": "HetorusNL Octopi",
@@ -12,21 +12,21 @@
   {
     "name": "HetorusNL qBbittorrent",
     "url": "https://qbittorrent.hetorus.nl",
-    "favicon": "https://qbittorrent.hetorus.nl/favicon.ico"
+    "favicon": "https://qbittorrent.hetorus.nl/images/skin/qbittorrent-tray.svg"
   },
   {
-    "name": "HetorusNL Plex Server",
+    "name": "HetorusNL Plex Server (no status)",
     "url": "https://plex.hetorus.nl",
-    "favicon": "https://plex.hetorus.nl/favicon.ico"
+    "favicon": "https://plex.hetorus.nl/web/favicon.ico"
   },
   {
     "name": "HetorusNL Tautulli",
-    "url": "https://tautulli.hetorus.nl",
+    "url": "https://tautulli.hetorus.nl/home",
     "favicon": "https://tautulli.hetorus.nl/favicon.ico"
   },
   {
     "name": "HetorusNL Jackett",
-    "url": "https://jackett.hetorus.nl",
+    "url": "https://jackett.hetorus.nl/UI/Login?ReturnUri=%2FUI%2FDashboard",
     "favicon": "https://jackett.hetorus.nl/favicon.ico"
   },
   {
@@ -41,8 +41,7 @@
   },
   {
     "name": "HetorusNL Server Fan Speed",
-    "url": "https://server-fan-speed.hetorus.nl",
-    "favicon": "https://server-fan-speed.hetorus.nl/favicon.ico"
+    "url": "https://server-fan-speed.hetorus.nl"
   },
   {
     "name": "HetorusNL HassIO",
