@@ -61,7 +61,16 @@ class App extends Component {
               render={(props) => (
                 <Fragment>
                   <div>
+                    <h1 style={{ textAlign: "center", marginTop: "0.5em" }}>
+                      Websites status
+                    </h1>
                     <StatusPage configFile="config/pages.json" />
+                  </div>
+                  <div>
+                    <h1 style={{ textAlign: "center", marginTop: "0.5em" }}>
+                      SSO Websites status
+                    </h1>
+                    <StatusPage configFile="config/pages_sso.json" usesSSO />
                   </div>
                 </Fragment>
               )}

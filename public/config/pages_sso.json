@@ -1,0 +1,77 @@
+[
+  {
+    "name": "HetorusNL Router",
+    "url": "https://router.hetorus.nl",
+    "favicon": "https://router.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Octopi",
+    "url": "https://octopi.hetorus.nl",
+    "favicon": "https://octopi.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL qBbittorrent",
+    "url": "https://qbittorrent.hetorus.nl",
+    "favicon": "https://qbittorrent.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Plex Server",
+    "url": "https://plex.hetorus.nl",
+    "favicon": "https://plex.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Tautulli",
+    "url": "https://tautulli.hetorus.nl",
+    "favicon": "https://tautulli.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Jackett",
+    "url": "https://jackett.hetorus.nl",
+    "favicon": "https://jackett.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Radarr",
+    "url": "https://radarr.hetorus.nl",
+    "favicon": "https://radarr.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Sonarr",
+    "url": "https://sonarr.hetorus.nl",
+    "favicon": "https://sonarr.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Server Fan Speed",
+    "url": "https://server-fan-speed.hetorus.nl",
+    "favicon": "https://server-fan-speed.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO",
+    "url": "https://hassio.hetorus.nl",
+    "favicon": "https://hassio.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO IDE",
+    "url": "https://ide.hetorus.nl",
+    "favicon": "https://ide.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO InfluxDB",
+    "url": "https://influxdb.hetorus.nl",
+    "favicon": "https://influxdb.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO Grafana",
+    "url": "https://grafana.hetorus.nl",
+    "favicon": "https://grafana.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO Motioneye",
+    "url": "https://motioneye.hetorus.nl",
+    "favicon": "https://motioneye.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL HassIO Portainer",
+    "url": "https://portainer.hetorus.nl",
+    "favicon": "https://portainer.hetorus.nl/favicon.ico"
+  }
+]

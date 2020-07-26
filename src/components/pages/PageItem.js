@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 
 import Spinner from "../layout/Spinner";
 
-const PageItem = ({ page }) => {
+const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
   const LoadState = {
     LOADING: "loading",
     LOADED: "loaded",
+    SSO: "SSO",
     ERROR: "error",
   };
 
@@ -21,12 +22,27 @@ const PageItem = ({ page }) => {
   ];
   page.favicon && faviconPaths.unshift(page.favicon);
 
+  const getLoadStateFromRes = (res) => {
+    if (res.redirected && res.url.includes("sso.hetorus.nl/login")) {
+      ssoProtectedPagesFound(true);
+      console.log("set pages.result to SSO");
+      return LoadState.SSO;
+    } else {
+      return res.ok ? LoadState.LOADED : LoadState.ERROR;
+    }
+  };
+
   async function fetchPage() {
     try {
-      await fetch(page.url, { cache: "no-store" }).then((res) => {
-        setLoadState(res.ok ? LoadState.LOADED : LoadState.ERROR);
+      await fetch(page.url, {
+        cache: "no-store",
+        credentials: usesSSO ? "include" : "omit",
+      }).then((res) => {
+        console.log(res);
+        setLoadState(getLoadStateFromRes(res));
       });
     } catch (err) {
+      console.log("error while trying to fetch:", page.url, ":", err);
       setLoadState(LoadState.ERROR);
     }
   }
@@ -34,8 +50,17 @@ const PageItem = ({ page }) => {
   async function fetchFavicon() {
     if (page.favicon) {
       try {
-        await fetch(page.favicon, { cache: "no-store" }).then((res) => {
-          setFaviconState(res.ok ? page.favicon : LoadState.ERROR);
+        await fetch(page.favicon, {
+          cache: "no-store",
+          credentials: usesSSO ? "include" : "omit",
+        }).then((res) => {
+          console.log(res);
+          const faviconLoadState = getLoadStateFromRes(res);
+          setFaviconState(
+            faviconLoadState === LoadState.LOADED
+              ? page.favicon
+              : faviconLoadState
+          );
         });
       } catch (err) {
         setFaviconState(LoadState.ERROR);
@@ -53,11 +78,9 @@ const PageItem = ({ page }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return (
-    <div className="card text-center">
-      {faviconState === LoadState.LOADING ? (
-        <Spinner width="80px" height="80px" backgroundColor="transparent" />
-      ) : faviconState === LoadState.ERROR ? (
+  const renderFavicon = () => {
+    const renderText = (text) => {
+      return (
         <div
           style={{
             display: "flex",
@@ -67,19 +90,71 @@ const PageItem = ({ page }) => {
             margin: "3.5px",
           }}
         >
-          <strong style={{ fontSize: "1.4em" }}>
-            No <br />
-            favicon!
-          </strong>
+          <strong style={{ fontSize: "1.4em" }}>{text}</strong>
         </div>
-      ) : (
-        <img
-          src={faviconState}
-          alt=""
-          className="round-img"
-          style={{ width: "80px", height: "80px" }}
-        />
-      )}
+      );
+    };
+    switch (faviconState) {
+      case LoadState.LOADING:
+        return (
+          <Spinner width="80px" height="80px" backgroundColor="transparent" />
+        );
+      case LoadState.ERROR:
+        return renderText(
+          <div>
+            No <br /> favicon!
+          </div>
+        );
+      case LoadState.SSO:
+        return renderText(
+          <div>
+            SSO <br /> protected!
+          </div>
+        );
+      default:
+        return (
+          <img
+            src={faviconState}
+            alt=""
+            className="round-img"
+            style={{ width: "80px", height: "80px" }}
+          />
+        );
+    }
+  };
+
+  const renderStatus = () => {
+    switch (loadState) {
+      case LoadState.LOADING:
+        return (
+          <Spinner width="60px" height="60px" backgroundColor="transparent" />
+        );
+      case LoadState.LOADED:
+        return (
+          <strong style={{ color: "var(--success-color)" }}>ONLINE</strong>
+        );
+      case LoadState.SSO:
+        return (
+          <strong style={{ color: "var(--danger-color)" }}>
+            SSO PROTECTED
+          </strong>
+        );
+      case LoadState.ERROR:
+        return (
+          <strong style={{ color: "var(--danger-color)" }}>OFFLINE</strong>
+        );
+      default:
+        return (
+          <strong style={{ color: "var(--danger-color)" }}>
+            UNKNOWN STATE {loadState}
+          </strong>
+        );
+    }
+  };
+
+  return (
+    <div className="card text-center">
+      {renderFavicon()}
       <p>
         <a
           className="btn"
@@ -94,13 +169,7 @@ const PageItem = ({ page }) => {
       <p>
         <strong>Status:</strong>
       </p>
-      {loadState === LoadState.LOADING ? (
-        <Spinner width="60px" height="60px" backgroundColor="transparent" />
-      ) : loadState === LoadState.LOADED ? (
-        <strong style={{ color: "var(--success-color)" }}>ONLINE</strong>
-      ) : (
-        <strong style={{ color: "var(--danger-color)" }}>OFFLINE</strong>
-      )}
+      {renderStatus()}
       {/* the json content is shown for debug purposes */}
       {/* but hidden by default (display: "none") */}
       <pre
@@ -113,8 +182,13 @@ const PageItem = ({ page }) => {
   );
 };
 
+PageItem.defaultProps = {
+  usesSSO: false,
+};
+
 PageItem.propTypes = {
   page: PropTypes.object.isRequired,
+  usesSSO: PropTypes.bool.isRequired,
 };
 
 export default PageItem;

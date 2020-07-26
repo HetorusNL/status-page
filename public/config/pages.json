@@ -87,10 +87,5 @@
     "name": "HetorusNL Guitar (beta)",
     "url": "https://beta.guitar.hetorus.nl",
     "favicon": "https://beta.guitar.hetorus.nl/images/guitar-logo.png"
-  },
-  {
-    "name": "HetorusNL HassIO",
-    "url": "https://hassio.hetorus.nl",
-    "favicon": "https://hassio.hetorus.nl/favicon.ico"
   }
 ]
