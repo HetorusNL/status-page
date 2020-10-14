@@ -16,7 +16,8 @@
     "serialize-javascript": "^3.1.0"
   },
   "resolutions": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.19",
+    "node-forge": "^0.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
