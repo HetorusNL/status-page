@@ -1,10 +1,18 @@
-# React Songsterr and RS Online
+# Status Page
 
-TODO: add information
+Status page showing the status of the websites provided in the config/pages.json and config/pages_sso.json configuration files.
 
 ## Using this repository
 
-TODO: add usage (e.g. changing json files)
+Websites can be added/removed by modifying the above mentioned JSON files while adhering to the following format for each entry:
+
+```json
+{
+  "name": "Name of the website",
+  "url": "https://website-root.url",
+  "favicon": "https://website.url/path/to/favicon"
+}
+```
 
 ## Scripts
 
