@@ -1,8 +1,9 @@
 #!/bin/bash
+set -e
 
 echo "making sure server root mount point exists"
 echo "sudo mkdir /mnt/r"
-sudo mkdir /mnt/r
+sudo mkdir -p /mnt/r
 
 echo ""
 echo "make sure that server root is mounted"
@@ -12,7 +13,7 @@ sudo mount -t drvfs R: /mnt/r
 echo ""
 echo "removing existing content from folder"
 echo "sudo rm -r /mnt/r/status.hetorus.nl/*"
-sudo rm -r /mnt/r/status.hetorus.nl/*
+sudo rm -rf /mnt/r/status.hetorus.nl/*
 
 echo ""
 echo "copying HetorusNL Status Page to the server root"
