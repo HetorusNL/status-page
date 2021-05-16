@@ -54,19 +54,10 @@ const StatusPage = ({ configFile, usesSSO }) => {
                 Reload
               </div>
             </div>
-            <div
-              style={{
-                display: "grid",
-                maxWidth: "1200px",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gridGap: "1rem",
-                marginLeft: "auto",
-                marginRight: "auto",
-              }}
-            >
+            <div style={pagesStyle}>
               <iframe
                 title="SSO Iframe"
-                src="https://sso.hetorus.nl/login?backTo=https%3A%2F%2Fsso.hetorus.nl%2F"
+                src="https://sso.hetorus.nl/auth?redirect_url=https%3A%2F%2Fsso.hetorus.nl%2F"
                 style={{
                   width: "100%",
                   minHeight: "400px",
