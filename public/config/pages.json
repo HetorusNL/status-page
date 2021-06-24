@@ -10,6 +10,11 @@
     "favicon": "https://hetorus.nl/images/favicon.ico"
   },
   {
+    "name": "Vocya Dashboard",
+    "url": "https://vocya.hetorus.nl",
+    "favicon": "https://vocya.hetorus.nl/favicon.ico"
+  },
+  {
     "name": "HetorusNL SSO",
     "url": "https://sso.hetorus.nl"
   },
