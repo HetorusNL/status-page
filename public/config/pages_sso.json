@@ -44,19 +44,14 @@
     "url": "https://server-fan-speed.hetorus.nl"
   },
   {
-    "name": "HetorusNL HassIO",
-    "url": "https://hassio.hetorus.nl",
-    "favicon": "https://hassio.hetorus.nl/favicon.ico"
+    "name": "HetorusNL Home Assistant",
+    "url": "https://homeassistant.hetorus.nl",
+    "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
   },
   {
-    "name": "HetorusNL HassIO IDE",
-    "url": "https://ide.hetorus.nl",
-    "favicon": "https://ide.hetorus.nl/favicon.ico"
-  },
-  {
-    "name": "HetorusNL HassIO InfluxDB",
+    "name": "HetorusNL HAOS InfluxDB",
     "url": "https://influxdb.hetorus.nl",
-    "favicon": "https://influxdb.hetorus.nl/favicon.ico"
+    "favicon": "https://influxdb.hetorus.nl/favicon.fa749080.ico"
   },
   {
     "name": "HetorusNL HassIO Grafana",

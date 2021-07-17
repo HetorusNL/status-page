@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
+import About from "./components/pages/About";
 import Navbar from "./components/layout/Navbar";
 import CacheBuster from "./components/utils/CacheBuster";
 import StatusPage from "./components/pages/StatusPage";
@@ -75,7 +76,15 @@ class App extends Component {
                 </Fragment>
               )}
             />
-            <Route exact path="/about" render={(props) => <p>About page</p>} />
+            <Route
+              exact
+              path="/about"
+              render={(props) => (
+                <div className="container" style={{ margin: "0 auto 0 auto" }}>
+                  <About />
+                </div>
+              )}
+            />
           </Switch>
         </div>
       </Router>
