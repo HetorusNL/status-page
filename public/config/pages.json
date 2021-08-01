@@ -15,6 +15,11 @@
     "favicon": "https://vocya.hetorus.nl/favicon.ico"
   },
   {
+    "name": "HetorusNL Home Assistant",
+    "url": "https://homeassistant.hetorus.nl",
+    "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
+  },
+  {
     "name": "HetorusNL SSO",
     "url": "https://sso.hetorus.nl"
   },

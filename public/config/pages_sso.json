@@ -5,11 +5,6 @@
     "favicon": "https://router.hetorus.nl/images/favicon.png"
   },
   {
-    "name": "HetorusNL Octopi",
-    "url": "https://octopi.hetorus.nl",
-    "favicon": "https://octopi.hetorus.nl/favicon.ico"
-  },
-  {
     "name": "HetorusNL qBbittorrent",
     "url": "https://qbittorrent.hetorus.nl",
     "favicon": "https://qbittorrent.hetorus.nl/icons/qbittorrent-tray.svg"
@@ -44,28 +39,8 @@
     "url": "https://server-fan-speed.hetorus.nl"
   },
   {
-    "name": "HetorusNL Home Assistant",
-    "url": "https://homeassistant.hetorus.nl",
-    "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
-  },
-  {
     "name": "HetorusNL HAOS InfluxDB",
     "url": "https://influxdb.hetorus.nl",
     "favicon": "https://influxdb.hetorus.nl/favicon.fa749080.ico"
-  },
-  {
-    "name": "HetorusNL HassIO Grafana",
-    "url": "https://grafana.hetorus.nl",
-    "favicon": "https://grafana.hetorus.nl/favicon.ico"
-  },
-  {
-    "name": "HetorusNL HassIO Motioneye",
-    "url": "https://motioneye.hetorus.nl",
-    "favicon": "https://motioneye.hetorus.nl/favicon.ico"
-  },
-  {
-    "name": "HetorusNL HassIO Portainer",
-    "url": "https://portainer.hetorus.nl",
-    "favicon": "https://portainer.hetorus.nl/favicon.ico"
   }
 ]
