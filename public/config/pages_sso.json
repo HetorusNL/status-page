@@ -42,5 +42,10 @@
     "name": "HetorusNL HAOS InfluxDB",
     "url": "https://influxdb.hetorus.nl",
     "favicon": "https://influxdb.hetorus.nl/favicon.fa749080.ico"
+  },
+  {
+    "name": "HetorusNL Zabbix",
+    "url": "https://zabbix.hetorus.nl/zabbix/",
+    "favicon": "https://zabbix.hetorus.nl/zabbix/favicon.ico"
   }
 ]
