@@ -57,7 +57,7 @@ const StatusPage = ({ configFile, usesSSO }) => {
             <div style={pagesStyle}>
               <iframe
                 title="SSO Iframe"
-                src="https://sso.hetorus.nl/auth?redirect_url=https%3A%2F%2Fsso.hetorus.nl%2F"
+                src="https://cardinal-system.hetorus.nl/login?redirect_url=https%3A%2F%2Fcardinal-system.hetorus.nl%2F"
                 style={{
                   width: "100%",
                   minHeight: "400px",

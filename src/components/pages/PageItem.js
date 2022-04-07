@@ -23,7 +23,11 @@ const PageItem = ({ page, usesSSO, ssoProtectedPagesFound }) => {
   page.favicon && faviconPaths.unshift(page.favicon);
 
   const getLoadStateFromRes = (res) => {
-    if (usesSSO && res.redirected && res.url.includes("sso.hetorus.nl/auth")) {
+    if (
+      usesSSO &&
+      res.redirected &&
+      res.url.includes("cardinal-system.hetorus.nl/login")
+    ) {
       ssoProtectedPagesFound(true);
       return LoadState.SSO;
     } else {

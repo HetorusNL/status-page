@@ -15,13 +15,29 @@
     "favicon": "https://vocya.hetorus.nl/favicon.ico"
   },
   {
+    "name": "Vocya API",
+    "url": "https://api.vocya.hetorus.nl/courses",
+    "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
+  },
+  {
+    "name": "Masterpiece Dashboard",
+    "url": "https://masterpiece.hetorus.nl",
+    "favicon": "https://masterpiece.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "Masterpiece API",
+    "url": "https://api.masterpiece.hetorus.nl/words",
+    "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
+  },
+  {
     "name": "HetorusNL Home Assistant",
     "url": "https://homeassistant.hetorus.nl",
     "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
   },
   {
-    "name": "HetorusNL SSO",
-    "url": "https://sso.hetorus.nl"
+    "name": "Cardinal System | SSO",
+    "url": "https://cardinal-system.hetorus.nl",
+    "favicon": "https://cardinal-system.hetorus.nl/assets/images/favicon.png"
   },
   {
     "name": "HetorusNL test",

@@ -33,12 +33,15 @@
   "scripts": {
     "start": "react-scripts start",
     "prebuild": "yarn generate-build-version",
-    "build": "react-scripts build",
+    "build": "yarn prebuild && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-build-version": "node generate-build-version",
-    "version": "yarn build && git add .",
-    "postversion": "git push --tags && git push",
+    "release-patch": "yarn version patch && yarn postversion",
+    "release-minor": "yarn version minor && yarn postversion",
+    "release-major": "yarn version major && yarn postversion",
+    "postversion": "yarn build && yarn git-script",
+    "git-script": "node git-script",
     "deploy": "./deploy.sh"
   },
   "eslintConfig": {
@@ -55,5 +58,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }

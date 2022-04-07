@@ -5,7 +5,7 @@
     "favicon": "https://router.hetorus.nl/images/favicon.png"
   },
   {
-    "name": "HetorusNL qBbittorrent",
+    "name": "HetorusNL qBittorrent",
     "url": "https://qbittorrent.hetorus.nl",
     "favicon": "https://qbittorrent.hetorus.nl/icons/qbittorrent-tray.svg"
   },
@@ -33,6 +33,11 @@
     "name": "HetorusNL Sonarr",
     "url": "https://sonarr.hetorus.nl",
     "favicon": "https://sonarr.hetorus.nl/favicon.ico"
+  },
+  {
+    "name": "HetorusNL Bazarr",
+    "url": "https://bazarr.hetorus.nl",
+    "favicon": "https://bazarr.hetorus.nl/static/favicon.ico"
   },
   {
     "name": "HetorusNL Server Fan Speed",
