@@ -20,6 +20,11 @@
     "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
   },
   {
+    "name": "Kanaraimasu",
+    "url": "https://kanaraimasu.hetorus.nl",
+    "favicon": "https://kanaraimasu.hetorus.nl/favicon.png"
+  },
+  {
     "name": "Masterpiece Dashboard",
     "url": "https://masterpiece.hetorus.nl",
     "favicon": "https://masterpiece.hetorus.nl/favicon.ico"
