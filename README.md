@@ -33,9 +33,9 @@ this updates the version number (if changed in `package.json`) and builds the ap
 the Semantic Versioning, also known as "semver", is used:  
 version: `major.minor.patch`  
 run one of the following commands:  
-`yarn version --patch` // increments the `patch` number of the version  
-`yarn version --minor` // increments the `minor` number of the version  
-`yarn verison --major` // increments the `major` number of the version  
+`yarn release-patch` // increments the `patch` number of the version  
+`yarn release-minor` // increments the `minor` number of the version  
+`yarn release-major` // increments the `major` number of the version  
 all these three commands also create a git commit and git tag with the message:  
 `v${npm_package_version}` (which is the major.minor.patch version)  
 these three commands also perform a push to the master branch on github and push the tags
