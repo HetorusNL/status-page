@@ -17,7 +17,7 @@
   {
     "name": "Vocya API",
     "url": "https://api.vocya.hetorus.nl/courses",
-    "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
+    "favicon": "https://status.hetorus.nl/local-icons/python.png"
   },
   {
     "name": "Kanaraimasu",
@@ -32,7 +32,7 @@
   {
     "name": "Masterpiece API",
     "url": "https://api.masterpiece.hetorus.nl/words",
-    "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
+    "favicon": "https://status.hetorus.nl/local-icons/python.png"
   },
   {
     "name": "Github Finder",
