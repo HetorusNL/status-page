@@ -35,6 +35,11 @@
     "favicon": "https://www.python.org/static/opengraph-icon-200x200.png"
   },
   {
+    "name": "Github Finder",
+    "url": "https://github-finder.hetorus.nl",
+    "favicon": "https://github-finder.hetorus.nl/favicon.ico"
+  },
+  {
     "name": "HetorusNL Home Assistant",
     "url": "https://homeassistant.hetorus.nl",
     "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
