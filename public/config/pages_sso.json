@@ -10,8 +10,8 @@
     "favicon": "https://qbittorrent.hetorus.nl/icons/qbittorrent-tray.svg"
   },
   {
-    "name": "HetorusNL Plex Server (no status)",
-    "url": "https://plex.hetorus.nl",
+    "name": "HetorusNL Plex Server",
+    "url": "https://plex.hetorus.nl/web/index.html",
     "favicon": "https://plex.hetorus.nl/web/favicon.ico"
   },
   {
@@ -37,7 +37,7 @@
   {
     "name": "HetorusNL Bazarr",
     "url": "https://bazarr.hetorus.nl",
-    "favicon": "https://bazarr.hetorus.nl/static/favicon.ico"
+    "favicon": "https://bazarr.hetorus.nl/images/favicon.ico"
   },
   {
     "name": "HetorusNL Server Fan Speed",
@@ -47,10 +47,5 @@
     "name": "HetorusNL HAOS InfluxDB",
     "url": "https://influxdb.hetorus.nl",
     "favicon": "https://influxdb.hetorus.nl/favicon.fa749080.ico"
-  },
-  {
-    "name": "HetorusNL Zabbix",
-    "url": "https://zabbix.hetorus.nl/zabbix/",
-    "favicon": "https://zabbix.hetorus.nl/zabbix/favicon.ico"
   }
 ]

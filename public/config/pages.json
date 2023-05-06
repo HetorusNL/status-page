@@ -64,16 +64,6 @@
     "url": "https://nightthrivers.com"
   },
   {
-    "name": "React Songsterr",
-    "url": "https://rs.hetorus.nl",
-    "favicon": "https://rs.hetorus.nl/favicon.ico"
-  },
-  {
-    "name": "React Songsterr (dev)",
-    "url": "https://dev.rs.hetorus.nl",
-    "favicon": "https://dev.rs.hetorus.nl/favicon.ico"
-  },
-  {
     "name": "HetorusNL Game",
     "url": "https://game.hetorus.nl",
     "favicon": "https://game.hetorus.nl/icon-256.png"
@@ -108,11 +98,6 @@
     "name": "HetorusNL Nextcloud",
     "url": "https://nextcloud.hetorus.nl/index.php",
     "favicon": "https://nextcloud.hetorus.nl/status-images/favicon.png"
-  },
-  {
-    "name": "HetorusNL CNC",
-    "url": "https://cnc.hetorus.nl",
-    "favicon": "https://cnc.hetorus.nl/favicon.ico"
   },
   {
     "name": "HetorusNL Guitar",
