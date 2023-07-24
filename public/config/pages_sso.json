@@ -7,7 +7,7 @@
   {
     "name": "HetorusNL qBittorrent",
     "url": "https://qbittorrent.hetorus.nl",
-    "favicon": "https://qbittorrent.hetorus.nl/icons/qbittorrent-tray.svg"
+    "favicon": "https://qbittorrent.hetorus.nl/images/qbittorrent-tray.svg"
   },
   {
     "name": "HetorusNL Plex Server",
@@ -20,9 +20,9 @@
     "favicon": "https://tautulli.hetorus.nl/favicon.ico"
   },
   {
-    "name": "HetorusNL Jackett",
-    "url": "https://jackett.hetorus.nl/UI/Login?ReturnUri=%2FUI%2FDashboard",
-    "favicon": "https://jackett.hetorus.nl/favicon.ico"
+    "name": "HetorusNL Prowlarr",
+    "url": "https://prowlarr.hetorus.nl/",
+    "favicon": "https://prowlarr.hetorus.nl/favicon.ico"
   },
   {
     "name": "HetorusNL Radarr",
@@ -35,7 +35,7 @@
     "favicon": "https://sonarr.hetorus.nl/favicon.ico"
   },
   {
-    "name": "HetorusNL Bazarr",
+    "name": "HetorusNL Bazarr | CORS issue",
     "url": "https://bazarr.hetorus.nl",
     "favicon": "https://bazarr.hetorus.nl/images/favicon.ico"
   },
@@ -46,6 +46,6 @@
   {
     "name": "HetorusNL HAOS InfluxDB",
     "url": "https://influxdb.hetorus.nl",
-    "favicon": "https://influxdb.hetorus.nl/favicon.fa749080.ico"
+    "favicon": "https://influxdb.hetorus.nl/favicon.70d63073.ico"
   }
 ]

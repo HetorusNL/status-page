@@ -97,7 +97,7 @@
   {
     "name": "HetorusNL Nextcloud",
     "url": "https://nextcloud.hetorus.nl/index.php",
-    "favicon": "https://nextcloud.hetorus.nl/status-images/favicon.png"
+    "favicon": "https://nextcloud.hetorus.nl/apps/theming/favicon/dashboard"
   },
   {
     "name": "HetorusNL Guitar",
