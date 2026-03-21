@@ -10,7 +10,7 @@
     "favicon": "https://tapl-lang.com/images/tapl-logo-icon.png"
   },
   {
-    "name": "TAPL Lang (.nl)",
+    "name": "TAPL Lang (.nl) | Cross-domain redirect issue",
     "url": "https://tapl-lang.nl",
     "favicon": "https://tapl-lang.com/images/tapl-logo-icon.png"
   },
@@ -121,7 +121,7 @@
   {
     "name": "Nextcloud - ONLYOFFICE",
     "url": "https://onlyoffice.nextcloud.hetorus.nl",
-    "favicon": "https://onlyoffice.nextcloud.hetorus.nl/css/favicon.ico"
+    "favicon": "https://onlyoffice.nextcloud.hetorus.nl/welcome/css/favicon.ico"
   },
   {
     "name": "HetorusNL Karaoke",
