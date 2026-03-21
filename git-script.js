@@ -1,27 +1,35 @@
 const { exec } = require("child_process");
+const util = require("util");
 const packageJson = require("./package.json");
+
+const execAsync = util.promisify(exec);
 
 const gitVersion = "v" + packageJson.version;
 
-doExec = async (command) => {
-  await exec(command, (error, stdout, stderr) => {
-    console.log(command);
-    if (error) {
-      console.log(`error: ${error.message}`);
-    }
+const doExec = async (command) => {
+  console.log(command);
+  try {
+    const { stdout, stderr } = await execAsync(command);
+
     if (stderr) {
       console.log(`stderr: ${stderr}`);
     }
-    stdout && console.log(`${stdout}`);
-  });
+    if (stdout) {
+      console.log(stdout);
+    }
+  } catch (error) {
+    console.log(`error: ${error.message}`);
+  }
 };
 
-doGitStuff = async () => {
+const doGitStuff = async () => {
   await doExec(`git add .`);
-  await doExec(`git commit -m "${gitVersion}"`);
+  await doExec(`git commit --amend --no-edit`);
+  await doExec(`git tag -d ${gitVersion}`);
   await doExec(`git tag -a ${gitVersion} -m "${gitVersion}"`);
-  await doExec(`git push --tags`);
-  await doExec(`git push`);
+
+  console.log(`to push the tags, run: "git push --tags"`);
+  console.log(`to push the commit, run: "git push"`);
 };
 
 doGitStuff();
