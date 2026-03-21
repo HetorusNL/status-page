@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from "react";
 import PropTypes from "prop-types";
 import Spinner from "../layout/Spinner";
-import PageItem from "../pages/PageItem";
+import PageItem from "./PageItem";
 
 const StatusPage = ({ configFile, usesSSO }) => {
   const [loading, setLoading] = useState(true);

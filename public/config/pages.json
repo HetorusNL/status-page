@@ -5,6 +5,16 @@
     "favicon": "https://status.hetorus.nl/favicon.ico"
   },
   {
+    "name": "TAPL Lang",
+    "url": "https://tapl-lang.com",
+    "favicon": "https://tapl-lang.com/images/tapl-logo-icon.png"
+  },
+  {
+    "name": "TAPL Lang (.nl)",
+    "url": "https://tapl-lang.nl",
+    "favicon": "https://tapl-lang.com/images/tapl-logo-icon.png"
+  },
+  {
     "name": "HetorusNL",
     "url": "https://hetorus.nl",
     "favicon": "https://hetorus.nl/images/favicon.ico"
@@ -45,6 +55,23 @@
     "favicon": "https://homeassistant.hetorus.nl/static/icons/favicon.ico"
   },
   {
+    "name": "Advent of Code Leaderboard",
+    "url": "https://aoc.hetorus.nl",
+    "favicon": "https://aoc.hetorus.nl/logo192.png"
+  },
+  {
+    "name": "Advent of Code Leaderboard API",
+    "url": "https://api.aoc.hetorus.nl"
+  },
+  {
+    "name": "Eredivisie Standing",
+    "url": "https://eredivisie-standing.hetorus.nl"
+  },
+  {
+    "name": "Eredivisie Standing API",
+    "url": "https://api.eredivisie-standing.hetorus.nl"
+  },
+  {
     "name": "Cardinal System | SSO",
     "url": "https://cardinal-system.hetorus.nl",
     "favicon": "https://cardinal-system.hetorus.nl/assets/images/favicon.png"
@@ -58,10 +85,6 @@
     "name": "HetorusNL test (html5)",
     "url": "https://test.hetorus.nl/html5",
     "favicon": "https://test.hetorus.nl/html5/images/favicon.png"
-  },
-  {
-    "name": "NightThrivers",
-    "url": "https://nightthrivers.com"
   },
   {
     "name": "HetorusNL Game",
@@ -83,10 +106,6 @@
     "favicon": "https://mrnom.hetorus.nl/images/favicon.png"
   },
   {
-    "name": "HetorusNL NightThrivers",
-    "url": "https://nightthrivers.hetorus.nl"
-  },
-  {
     "name": "HetorusNL Activator",
     "url": "https://activator.hetorus.nl"
   },
@@ -95,18 +114,18 @@
     "url": "https://🌐.hetorus.nl"
   },
   {
-    "name": "HetorusNL Nextcloud",
+    "name": "Nextcloud",
     "url": "https://nextcloud.hetorus.nl/index.php",
     "favicon": "https://nextcloud.hetorus.nl/apps/theming/favicon/dashboard"
   },
   {
-    "name": "HetorusNL Guitar",
-    "url": "https://guitar.hetorus.nl",
-    "favicon": "https://guitar.hetorus.nl/images/guitar-logo.png"
+    "name": "Nextcloud - ONLYOFFICE",
+    "url": "https://onlyoffice.nextcloud.hetorus.nl",
+    "favicon": "https://onlyoffice.nextcloud.hetorus.nl/css/favicon.ico"
   },
   {
-    "name": "HetorusNL Guitar (beta)",
-    "url": "https://beta.guitar.hetorus.nl",
-    "favicon": "https://beta.guitar.hetorus.nl/images/guitar-logo.png"
+    "name": "HetorusNL Karaoke",
+    "url": "https://karaoke.hetorus.nl",
+    "favicon": "https://karaoke.hetorus.nl/favicon.ico"
   }
 ]

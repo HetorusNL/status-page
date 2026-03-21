@@ -1,10 +1,5 @@
 [
   {
-    "name": "HetorusNL Router",
-    "url": "https://router.hetorus.nl",
-    "favicon": "https://router.hetorus.nl/images/favicon.png"
-  },
-  {
     "name": "HetorusNL qBittorrent",
     "url": "https://qbittorrent.hetorus.nl",
     "favicon": "https://qbittorrent.hetorus.nl/images/qbittorrent-tray.svg"
@@ -25,6 +20,10 @@
     "favicon": "https://prowlarr.hetorus.nl/favicon.ico"
   },
   {
+    "name": "HetorusNL Flaresolverr",
+    "url": "https://flaresolverr.hetorus.nl/"
+  },
+  {
     "name": "HetorusNL Radarr",
     "url": "https://radarr.hetorus.nl",
     "favicon": "https://radarr.hetorus.nl/favicon.ico"
@@ -38,10 +37,6 @@
     "name": "HetorusNL Bazarr | CORS issue",
     "url": "https://bazarr.hetorus.nl",
     "favicon": "https://bazarr.hetorus.nl/images/favicon.ico"
-  },
-  {
-    "name": "HetorusNL Server Fan Speed",
-    "url": "https://server-fan-speed.hetorus.nl"
   },
   {
     "name": "HetorusNL HAOS InfluxDB",
