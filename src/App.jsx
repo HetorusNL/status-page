@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import About from "./components/pages/About";
@@ -55,11 +55,11 @@ class App extends Component {
               return null;
             }}
           </CacheBuster>
-          <Switch>
+          <Routes>
             <Route
               exact
               path="/"
-              render={(props) => (
+              element={
                 <Fragment>
                   <div>
                     <h1 style={{ textAlign: "center", marginTop: "0.5em" }}>
@@ -74,18 +74,18 @@ class App extends Component {
                     <StatusPage configFile="config/pages_sso.json" usesSSO />
                   </div>
                 </Fragment>
-              )}
+              }
             />
             <Route
               exact
               path="/about"
-              render={(props) => (
+              element={
                 <div className="container" style={{ margin: "0 auto 0 auto" }}>
                   <About />
                 </div>
-              )}
+              }
             />
-          </Switch>
+          </Routes>
         </div>
       </Router>
     );
