@@ -1,6 +1,6 @@
 {
   "name": "status-page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "dependencies": {
     "prop-types": "^15.8.1",
